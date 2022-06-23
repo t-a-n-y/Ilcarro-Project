@@ -28,7 +28,7 @@ public class BaseTests {
     }
 
     public void openLoginForm(){
-        wd.findElement(By.xpath("//a[@href='/login?url=%2Fsearch']")).click();
+        wd.findElement(By.cssSelector("a[href^='/login']")).click();
 
     }
 
