@@ -41,7 +41,7 @@ public class BaseTests {
     }
 
     public void submitYalla(){
-        wd.findElement(By.xpath("//button[@type='submit']"));
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
     }
 
     public void type(By locator, String text){
