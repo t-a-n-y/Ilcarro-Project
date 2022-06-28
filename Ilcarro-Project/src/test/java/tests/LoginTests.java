@@ -1,39 +1,24 @@
 package tests;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class LoginTests extends BaseTests{
+public class LoginTests extends BaseTests {
 
-    @Test
-    public void successLogin(){
-        openLoginForm();
-        fillLoginForm("tanya@gmail.ru","Ttanya123$");
-        submitYalla();
-        //Assert
-
+    @BeforeMethod
+    public void preCondition() {
+        if (app.getUser().isLogged()) {
+            app.getUser().logOut();
+        }
     }
 
     @Test
-    public void loginNegativeTestWrongLogin(){
-        openLoginForm();
-        fillLoginForm("tanyagmail.ru","Ttanya123$");
-        submitYalla();
+    public void successLogin() {
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm("tanya@gmail.ru", "Ttanya123$");
+        app.getUser().submitYalla();
         //Assert
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
