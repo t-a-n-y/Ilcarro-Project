@@ -39,6 +39,8 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
+        Assert.assertEquals(app.getMessage(),"Registered");
+        app.getHelperUser().clickOk();
 
     }
 }
