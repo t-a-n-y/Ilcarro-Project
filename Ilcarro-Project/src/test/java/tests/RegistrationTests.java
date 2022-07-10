@@ -2,6 +2,7 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -26,8 +27,8 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(),"Registered");
-        app.getHelperUser().clickOk();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Registered");
+
 
     }
     @Test
@@ -39,8 +40,25 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(),"Registered");
-        app.getHelperUser().clickOk();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Registered");
 
+
+    }
+
+    @Test
+    public void registrationWrongPasswordFormatSize(){
+
+        User user = new User().setName("Zoa").setLastName("DSnow").setEmail("zoa@gmail.com").setPassword("Zoa");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicy();
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+    }
+
+    @AfterMethod
+    public void postCondition(){
+        app.getHelperUser().clickOk();
     }
 }
