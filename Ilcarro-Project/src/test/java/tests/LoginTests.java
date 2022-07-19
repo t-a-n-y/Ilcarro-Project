@@ -11,14 +11,17 @@ public class LoginTests extends TestBase{
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logOut();
+            logger.info("Test start with logout");
         }
     }
 
     @Test
     public void loginSuccess(){
+        logger.info("Test start with email : 'noa@gmail.com' & password 'Nnoa12345$'");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com","Nnoa12345$");
         app.getHelperUser().submit();
+        logger.info("Logged------>");
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
 
     }
@@ -28,6 +31,7 @@ public class LoginTests extends TestBase{
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com","Nnoa12345$");
         app.getHelperUser().submit();
+        logger.info("Logged------>");
         Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
 
     }

@@ -1,0 +1,6 @@
+19:10:26.893  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+19:10:43.747  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+19:10:44.502  INFO  tests.TestBase - Start test with name ---->loginSuccess
+19:10:49.928  INFO  tests.TestBase - Test start with email : 'noa@gmail.com' & password 'Nnoa12345$'
+19:10:57.801  INFO  manager.MyListener - The name of method with error findElement
+19:10:57.804  INFO  manager.MyListener - We have a problem java.lang.reflect.InvocationTargetException
