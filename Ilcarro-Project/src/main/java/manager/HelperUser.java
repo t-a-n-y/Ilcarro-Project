@@ -28,7 +28,7 @@ public class HelperUser extends HelperBase {
     public void fillLoginForm(String email, String password) {
         type(By.id("email"), email);
         takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen-1.png");
-        type(By.id("d"), password);
+        type(By.id("password"), password);
 
 
 
@@ -115,5 +115,9 @@ public class HelperUser extends HelperBase {
         fillLoginForm(user);
         submit();
         clickOk();
+    }
+
+    public boolean isYallaButtonNotClicable() {
+        return wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
     }
 }

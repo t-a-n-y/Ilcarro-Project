@@ -1,0 +1,10 @@
+12:02:50.110  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+12:03:09.428  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+12:03:09.901  INFO  tests.TestBase - Start test with name ---->searchPeriodPast
+12:03:09.954  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+12:03:13.223  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+12:03:13.848  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+12:03:14.164  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+12:03:17.742  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .cdk-overlay-container
+12:03:18.365  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+12:03:24.064  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo

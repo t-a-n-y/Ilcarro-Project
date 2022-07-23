@@ -1,0 +1,25 @@
+13:21:17.707  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+13:21:28.186  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+13:21:28.877  INFO  tests.TestBase - Start test with name ---->searchAnyPeriod
+13:21:29.020  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+13:21:32.926  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+13:21:33.532  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+13:21:34.179  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:35.183  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:36.105  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:36.625  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:37.476  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:38.030  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:38.592  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:38.943  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:39.226  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:39.642  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:40.307  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:40.813  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+13:21:41.304  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:41.781  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+13:21:42.286  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+13:21:43.005  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+13:21:43.423  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+13:21:49.466  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+13:21:50.195  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo

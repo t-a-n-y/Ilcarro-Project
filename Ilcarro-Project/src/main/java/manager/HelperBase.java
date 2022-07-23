@@ -70,4 +70,8 @@ public class HelperBase {
         }
 
     }
+
+    public void submit2() {
+        click(By.cssSelector("button[type='submit']"));
+    }
 }

@@ -1,0 +1,26 @@
+18:50:37.139  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+18:51:45.143  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+18:51:45.416  INFO  tests.TestBase - Start test with name ---->searchCurrentMonth
+18:51:45.432  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:51:46.929  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:51:50.657  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:51:51.274  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+18:51:51.816  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+18:51:52.469  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:51:53.050  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:51:59.320  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+18:52:00.392  INFO  tests.TestBase - Start test with name ---->searchCurrentYear
+18:52:00.399  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:52:02.016  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:52:03.627  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:52:08.721  INFO  manager.MyListener - The name of method with error -->findElement
+18:52:08.730  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87ace7bc856ca9166a0828b19374d859, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57893/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87ace7bc856ca9166a0828b19374d859
+18:52:08.746  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo

@@ -1,0 +1,18 @@
+13:43:20.829  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+13:43:36.876  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+13:43:37.502  INFO  tests.TestBase - Start test with name ---->loginSuccess
+13:43:37.529  INFO  manager.MyListener - New Before find by --> By.cssSelector: a[href^='/logout']
+13:43:42.646  INFO  tests.TestBase - Test start with email : 'noa@gmail.com' & password 'Nnoa12345$'
+13:43:42.647  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+13:43:43.711  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+13:43:46.162  INFO  manager.MyListener - WebDriver start find element -->By.id: d
+13:43:51.213  INFO  manager.MyListener - The name of method with error -->findElement
+13:43:51.219  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: #d
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [228bbae7-f03e-4229-ab57-ee63b2bb66ea, findElement {using=id, value=d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:53310, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13376, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:53310/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 228bbae7-f03e-4229-ab57-ee63b2bb66ea
+13:43:51.227  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']

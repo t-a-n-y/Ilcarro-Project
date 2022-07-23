@@ -1,0 +1,25 @@
+19:37:40.701  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+19:37:52.329  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+19:37:52.664  INFO  tests.TestBase - Start test with name ---->searchCurrentMonth
+19:37:52.711  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:37:55.976  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+19:37:56.270  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:37:57.047  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+19:37:58.145  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+19:37:58.760  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:37:59.411  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:38:05.331  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+19:38:06.069  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:38:12.015  INFO  tests.TestBase - Start test with name ---->searchCurrentYear
+19:38:12.021  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:38:15.357  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+19:38:16.631  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:38:17.157  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+19:38:18.096  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+19:38:18.682  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+19:38:19.039  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+19:38:19.542  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 23 ']
+19:38:20.167  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:38:20.395  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:38:25.954  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+19:38:26.330  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
