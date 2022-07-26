@@ -1,0 +1,76 @@
+18:39:00.156  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+18:39:11.839  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+18:39:12.023  INFO  tests.TestBase - Start test with name ---->searchAnyPeriod
+18:39:12.031  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:39:15.513  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:39:17.955  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+18:39:18.811  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:39:20.254  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:21.581  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+18:39:22.739  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:23.089  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:23.555  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:24.040  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:24.753  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:25.226  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:25.544  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [aria-label='Next month']
+18:39:25.872  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 20 ']
+18:39:26.351  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:39:27.027  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:39:27.610  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+18:39:34.343  INFO  tests.TestBase - Start test with name ---->searchCurrentMonth
+18:39:34.352  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:39:39.357  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:39:40.184  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+18:39:45.329  INFO  manager.MyListener - The name of method with error -->findElement
+18:39:45.368  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa88f6c0567ed06a672c6837db359bed, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49263/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa88f6c0567ed06a672c6837db359bed
+18:39:45.418  INFO  tests.TestBase - Start test with name ---->searchCurrentYear
+18:39:45.424  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:39:48.941  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:39:49.696  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+18:39:54.733  INFO  manager.MyListener - The name of method with error -->findElement
+18:39:54.735  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa88f6c0567ed06a672c6837db359bed, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49263/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa88f6c0567ed06a672c6837db359bed
+18:39:54.750  INFO  tests.TestBase - Start test with name ---->searchCurrentYearLocalDate
+18:39:54.752  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:39:58.614  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:40:00.748  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+18:40:05.998  INFO  manager.MyListener - The name of method with error -->findElement
+18:40:06.003  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa88f6c0567ed06a672c6837db359bed, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49263/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa88f6c0567ed06a672c6837db359bed
+18:40:06.028  INFO  tests.TestBase - Start test with name ---->searchPeriodPast
+18:40:06.034  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:40:11.693  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:40:14.058  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #dates
+18:40:19.097  INFO  manager.MyListener - The name of method with error -->findElement
+18:40:19.098  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa88f6c0567ed06a672c6837db359bed, findElement {using=css selector, value=#dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49263/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa88f6c0567ed06a672c6837db359bed

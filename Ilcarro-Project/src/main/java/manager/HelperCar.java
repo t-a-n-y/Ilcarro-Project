@@ -12,7 +12,7 @@ public class HelperCar extends HelperBase{
 
 
     public void openCarForm() {
-        click(By.id("1"));
+        click(By.xpath("//a[@id='1']"));
     }
 
     public void fillCarForm(Car car){

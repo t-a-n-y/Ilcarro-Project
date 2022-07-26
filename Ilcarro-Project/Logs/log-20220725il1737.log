@@ -1,0 +1,75 @@
+17:38:24.775  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+17:39:11.537  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+17:39:12.490  INFO  tests.TestBase - Start test with name ---->addNewCarSuccsess
+17:39:12.498  INFO  manager.MyListener - New Before find by --> By.cssSelector: a[href^='/logout']
+17:39:17.625  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+17:39:20.198  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+17:39:21.488  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+17:39:22.316  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:39:23.000  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:39:24.417  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:39:29.499  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+17:39:30.845  INFO  manager.MyListener - The name of method with error -->click
+17:39:30.892  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a id="1" class="navigation-link" href="/let-car-work"> is not clickable at point (813,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, clickElement {id=dae681c0-8475-409c-adea-cf5597076f0a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2f2462ed-cffe-493a-bad8-b8bdc3077743)] -> id: 1]
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743
+17:39:30.950  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+17:39:35.980  INFO  manager.MyListener - The name of method with error -->findElement
+17:39:35.981  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743
+17:39:36.052  INFO  tests.TestBase - Start test with name ---->loginSuccess
+17:39:36.056  INFO  manager.MyListener - New Before find by --> By.cssSelector: a[href^='/logout']
+17:39:36.141  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href^='/logout']
+17:39:36.280  INFO  manager.MyListener - The name of method with error -->click
+17:39:36.283  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (1126,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, clickElement {id=929c0e74-f44d-4968-be95-42fe53d53625}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2f2462ed-cffe-493a-bad8-b8bdc3077743)] -> css selector: a[href^='/logout']]
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743
+17:39:36.537  INFO  tests.TestBase - Start test with name ---->registrationSuccess
+17:39:36.541  INFO  manager.MyListener - New Before find by --> By.cssSelector: a[href^='/logout']
+17:39:36.827  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href^='/logout']
+17:39:36.947  INFO  manager.MyListener - The name of method with error -->click
+17:39:37.015  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (1126,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, clickElement {id=929c0e74-f44d-4968-be95-42fe53d53625}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2f2462ed-cffe-493a-bad8-b8bdc3077743)] -> css selector: a[href^='/logout']]
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743
+17:39:37.147  INFO  tests.TestBase - Start test with name ---->searchAnyPeriod
+17:39:39.158  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #city
+17:39:44.209  INFO  manager.MyListener - The name of method with error -->findElement
+17:39:44.211  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: #city
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, findElement {using=css selector, value=#city}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743
+17:39:44.220  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:39:44.271  INFO  manager.MyListener - The name of method with error -->click
+17:39:44.272  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (245,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f2462ed-cffe-493a-bad8-b8bdc3077743, clickElement {id=843e2415-dcf1-407a-8b18-db539d9c2a9b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:49457, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 13324, moz:profile: C:\Users\alex\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:49457/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (2f2462ed-cffe-493a-bad8-b8bdc3077743)] -> css selector: .logo]
+Session ID: 2f2462ed-cffe-493a-bad8-b8bdc3077743

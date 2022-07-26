@@ -22,6 +22,7 @@ public class HelperSearch extends HelperBase{
 
     private void selectPeriodCurrentMonth(String dataFrom, String dataTo) {
         //     7/25/2022",       "7/30/2022
+        clearPeriod();
         click(By.id("dates"));
                                                      //  0   1     2
         String [] from = dataFrom.split("/");  // ["7"],["25"],["2022"],    from[1] = "25"
@@ -34,8 +35,20 @@ public class HelperSearch extends HelperBase{
         click(By.xpath(locator2));
     }
 
+    private void clearPeriod() {
+        WebElement el = wd.findElement(By.cssSelector("#dates"));
+        String osName = System.getProperty("os.name");
+        System.out.println(osName);
+        if(osName.startsWith("Mac")){
+            el.sendKeys(Keys.COMMAND, "a");
+        }else {
+            el.sendKeys(Keys.CONTROL, "a");
+        }
+        el.sendKeys(Keys.DELETE);
+    }
+
     private void typeCity(String city) {
-        type(By.id("city"),city);
+        type(By.cssSelector("#city"),city);
         pause(2000);
         click(By.cssSelector(".pac-item"));
 
@@ -48,6 +61,7 @@ public class HelperSearch extends HelperBase{
 
     private void selectPeriodCurrentYear(String dataFrom, String dataTo) {
         //      8/10/2022             10/20/2022
+        clearPeriod();
         String dataNow = "7/20/2022";
         String [] now = dataNow.split("/");
         String [] from = dataFrom.split("/");
@@ -90,6 +104,8 @@ public class HelperSearch extends HelperBase{
 
     public void searchCurrentYearLocalData(String city, String dataFrom, String dataTo) {
        typeCity(city);
+       pause(2000);
+       clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -112,7 +128,10 @@ public class HelperSearch extends HelperBase{
     }
 
     public void searchAnyPeriodLocalDate(String city, String dataFrom, String dataTo) {
+       pause(2000);
         typeCity(city);
+        pause(2000);
+        clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from= LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -169,11 +188,13 @@ public class HelperSearch extends HelperBase{
     public void searchPeriodPast(String city, String dataFrom, String dataTo) {
 
         typeCity(city);
+        pause(2000);
         typePeriodInPast(dataFrom, dataTo);
 
     }
 
     private void typePeriodInPast(String dataFrom, String dataTo) {
+        clearPeriod();
         wd.findElement(By.cssSelector("#dates"));
         type(By.cssSelector("#dates"), dataFrom + "-" + dataTo);
         click(By.cssSelector(".cdk-overlay-container"));
