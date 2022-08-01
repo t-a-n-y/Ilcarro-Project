@@ -1,0 +1,51 @@
+18:12:56.628  INFO  manager.ApplicationManager - All Tests run in Chrome Driver ------>
+18:14:02.911  INFO  manager.ApplicationManager - Current Url --->https://ilcarro-1578153671498.web.app/search
+18:14:03.960  INFO  tests.TestBase - Start test with name ---->addNewCarSuccess
+18:14:03.967  INFO  manager.MyListener - New Before find by --> By.cssSelector: a[href^='/logout']
+18:14:09.665  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+18:14:10.893  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+18:14:13.186  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+18:14:15.622  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:14:16.189  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:14:17.183  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+18:14:22.304  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[@id='1']
+18:14:23.320  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+18:14:24.980  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+18:14:27.068  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+18:14:28.363  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+18:14:29.262  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+18:14:30.531  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+18:14:31.577  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+18:14:32.036  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+18:14:33.018  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+18:14:34.035  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+18:14:35.280  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+18:14:36.226  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+18:14:37.433  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+18:14:38.283  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+18:14:39.650  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+18:14:41.099  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+18:14:42.447  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+18:14:43.749  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+18:14:44.705  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+18:14:45.225  INFO  manager.MyListener - The name of method with error -->sendKeys
+18:14:45.300  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/tayahatum/Qa34/Qa34_IlCarro/auto1.jpeg
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8102eb73001cfd8e6abffb0cd9cfb996, sendKeysToElement {id=15882f5c-d05c-45a0-a001-c5e26b5b6986, value=[Ljava.lang.CharSequence;@14d25b6e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57080/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8102eb73001cfd8e6abffb0cd9cfb996)] -> id: photos]
+Session ID: 8102eb73001cfd8e6abffb0cd9cfb996
+18:14:45.422  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+18:14:50.549  INFO  manager.MyListener - The name of method with error -->findElement
+18:14:50.551  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ALEXPC', ip: '192.168.1.108', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8102eb73001cfd8e6abffb0cd9cfb996, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\alex\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57080}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57080/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8102eb73001cfd8e6abffb0cd9cfb996
