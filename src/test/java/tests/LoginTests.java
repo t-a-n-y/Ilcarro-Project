@@ -44,6 +44,8 @@ public class LoginTests extends TestBase{
 
     }
 
+    //for jenkins
+
     @Test(dataProvider = "loginCSV", dataProviderClass = MyDataProvider.class)
     public void loginSuccessDP(User user){
         app.getHelperUser().openLoginForm();

@@ -15,7 +15,7 @@ public class SearchTests extends TestBase{
       //  app.getHelperUser().pause(5000);
 
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen1.png");
+        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\src\\test\\screenshots/screen1.png");
 
     }
 
@@ -26,7 +26,7 @@ public class SearchTests extends TestBase{
 
         Assert.assertFalse(app.getHelperUser().isYallaButtoNotActive());
         Assert.assertTrue(app.search().isPeriodInPast());
-        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen2.png");
+        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\src\\test\\screenshots/screen2.png");
 
     }
 
@@ -38,7 +38,7 @@ public class SearchTests extends TestBase{
        // app.getHelperUser().pause(5000);
 
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen3.png");
+        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\src\\test\\screenshots/screen3.png");
     }
 
     @Test
@@ -48,7 +48,7 @@ public class SearchTests extends TestBase{
        // app.getHelperUser().pause(5000);
 
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen4.png");
+        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\src\\test\\screenshots/screen4.png");
 
     }
     @Test(groups = {"web"})
@@ -57,7 +57,7 @@ public class SearchTests extends TestBase{
         app.search().submit();
         //app.getHelperUser().pause(5000);
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\Ilcarro-Project\\src\\test\\screenshots/screen5.png");
+        app.search().takescreenShots("C:\\Git\\Ilcarro-Project\\src\\test\\screenshots/screen5.png");
     }
 
 
